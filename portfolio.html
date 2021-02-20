@@ -1,0 +1,118 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0" width="device-width" />
+		<title>Student Bio Website</title>
+
+		<style type="text/css">
+			body{
+				background-color:#ebebeb;
+				font-family:sans-serif;
+				font-size: 0.9em;
+				color:#595959;
+				line-height: 2;
+				width:90%
+				}
+
+			.portfolio_pic{
+				width:25%;
+				float:left;
+			
+				margin-left:6%;
+			}
+			ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+					background-color:#ebebeb ;
+					display: flex ;
+					justify-content: center;
+				}
+				li {
+					float: left;
+				}
+				li a {
+					display: block;
+					color: #595959;
+					text-align: center;
+					padding: 10px 20px;
+					border:1px solid #b3b3b3;
+					border-radius:13px;
+					text-decoration: none;
+				}
+				a:hover, a:active {
+								  background-color: #b3b3b3;
+								  color: black;
+				}
+				li a:active {
+ 							 background-color: #1550a3;
+ 							 color:white;
+				} 
+				
+    #portfolio {
+        width: 90%;
+ 
+    }
+    #portfolio:hover {
+        transform: scale(1.3);
+        transition: transform 350ms ease-in-out;
+        
+    }
+    .footer{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+#a_portfolio:hover{
+	background-color:#ebebeb;
+}
+		</style>
+	</head>
+
+	<body>
+<header><img src="images/gklogo.png" width="10%" style="float:left;margin-left:5%">
+		<nav class="menu" style="margin-right:10%">
+            <ul>
+	            <li><a href="Index.html">About me</a></li> 
+		        <li><a href="assignments.html" >Assignments</a></li>
+		        <li ><a href="experience.html">Experience</a></li>
+		        <li ><a href="portfolio.html">Portfolio</a></li>
+		        <li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</header>
+		<br>
+		
+		<section style="margin-left:14%" >
+			<h3 style="text-align:center;">MY DESIGNS:</h3>
+			<br>
+			<div class="portfolio_pic">
+				<a href="https://sv-treuhand.ch/" id="a_portfolio"><img src="images/portfolio1.png" id="portfolio" style="padding:3%">
+			</a></div>
+			<div class="portfolio_pic">
+				<a href="https://einsprache-bern.ch/" id="a_portfolio"><img src="images/portfolio2.png" id="portfolio" style="padding:3%">
+			</a></div>
+			<div class="portfolio_pic">
+				<a href="https://osix.ch/" id="a_portfolio"><img src="images/portfolio3.png" id="portfolio" style="padding:3%;margin-top:-18%">
+			</a></div>
+			<div class="portfolio_pic">
+				<img src="images/portfolio4.png" id="portfolio" style="padding:3%">
+			</div>
+			<div class="portfolio_pic">
+				<img src="images/portfolio5.png" id="portfolio" style="width:100%;margin-top:15%">
+			</div>
+			<div class="portfolio_pic">
+				<img src="images/portfolio6.png" id="portfolio" style="padding:3%;margin-top:18%">
+			</div>
+		
+
+		</section>
+
+		<footer class="footer"><br><br>
+				<br><br><p>Date:20/2/2021</p>
+		</footer>
+</body>
+</html>

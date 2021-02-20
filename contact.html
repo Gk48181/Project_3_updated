@@ -1,0 +1,100 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name=”viewport” content=”initial-scale=1.0, width=device-width” />
+		<title>Student Bio Website</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<style type="text/css">
+			body{width:100%;}
+			.contact_form{
+				width:40%;
+				margin-left:-33%;
+				border-radius:13px;
+				border-color:1px solid white;
+				background-color:white;
+				padding:1%;
+
+			}
+			input, textarea{
+				border-radius:13px;
+				background-color:#ebebeb;
+				border:1px solid #b3b3b3;
+				padding:3%;
+			}
+			input, label, textarea{
+				margin-left:23%;
+			}
+			#submit:hover{
+				background-color: #37a3f0;
+			}
+			 .footer{
+					width:100%;
+					float:left;
+					text-align:center;
+			}
+		
+		</style>
+	</head>
+	<body> 
+	
+		<header><img src="images/gklogo.png" width="10%" style="float:left;margin-left:5%">
+		<nav class="menu" style="margin-right:10%">
+            <ul>
+	            <li><a href="Index.html">About me</a></li> 
+		        <li><a href="assignments.html" >Assignments</a></li>
+		        <li ><a href="experience.html">Experience</a></li>
+		        <li ><a href="portfolio.html">Portfolio</a></li>
+		        <li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</header>
+
+		<br>
+		
+		<h3 style="text-align:center">CONTACT ME: </h3>
+
+		<hr>
+
+		<br><img src="images/ss.gif" width="25%" height="200px" style="float:left;margin-top:10%" >
+		<section>
+		
+		<div class="contact_form" style="float:left;">
+
+			<form method="post">
+				<label for="fname" >First name:</label>
+						<br>
+					<input type="text" id="fname" name="fname">
+
+					<br><br>
+				  
+				<label for="lname">Last name:</label>
+						<br>
+				  	<input type="text" id="lname" name="lname" >
+
+				  	<br><br>
+				  
+				<label for="email">E-mail:    </label>
+						<br>
+					<input type="email" id="email" name="email">
+
+					<br><br>
+				  
+				<label for="textarea" >Message: </label>
+						<br> 
+		 			<textarea placeholder=" Write your message here..." rows="5" col="5"></textarea>
+
+		 			<br><br>
+						
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="submit" id="submit" value="Submit"><br><br>
+			</form>
+		</div>
+
+</section>
+		<footer class="footer"><br><br>
+				<br><br><p>Date:20/02/2021</p>
+		</footer>
+	</body>
+</html>

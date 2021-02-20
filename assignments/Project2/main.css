@@ -1,0 +1,93 @@
+body{
+	background-color:#ebebeb;
+	font-family:sans-serif;
+	font-size: 0.9em;
+	color:#595959;
+	line-height: 2;
+	width:1000px;
+}
+section{
+	display: flex !important;
+    justify-content: center !important;
+}
+.pic_bio{
+	width:225px;
+	border:1px solid white;
+	margin-left:60px;
+	border-radius:13px;
+	background-color:white;
+	float:left;
+
+}
+.p_image{
+	text-align:center;
+}
+.bio{
+	width:660px;
+	background-color:white;
+	border:1px solid white;
+	text-align:justify;
+	border-radius: 13px;
+	padding:20px;
+	font-size:1.1em;
+	float:left;
+	margin-left:55px;
+}
+.logos{
+	width:60px;
+	padding-left:25px;
+	margin-left:60px;
+}
+.socialmedia{
+
+	float:left;
+	border:1px solid white;
+	background-color: white;
+	width:540px;
+	margin-top:33px;
+	margin-left:325px;
+	border-radius:13px;
+
+	
+}
+.h3_socialmedia{
+	text-align:center;
+}
+.hr_socialmedia{
+	margin-left:33px;
+	margin-right:33px;
+}
+.footer{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+					background-color:#ebebeb ;
+					display: flex ;
+					justify-content: center;
+				}
+				li {
+					float: left;
+				}
+				li a {
+					display: block;
+					color: #595959;
+					text-align: center;
+					padding: 10px 20px;
+					border:1px solid #b3b3b3;
+					border-radius:13px;
+					text-decoration: none;
+				}
+				a:hover, a:active {
+								  background-color: #b3b3b3;
+								  color: black;
+				}
+				li a:active {
+ 							 background-color: #37a3f0;
+				} 

@@ -1,0 +1,127 @@
+body{
+	background-color:#ebebeb;
+	font-family:sans-serif;
+	font-size: 0.9em;
+	color:#595959;
+	line-height: 2;
+	width:90%
+}
+section{
+	display: flex !important;
+    justify-content: center !important;
+}
+td{
+	padding-top:10%;
+}
+.pic_bio{
+	width:19%;
+	border:1px solid white;
+	margin-left:-5%;
+	border-radius:13px;
+	background-color:white;
+	float:left;
+
+}
+.p_image{
+	text-align:center;
+	padding-top:8%;
+}
+.bio{
+	width:45%;
+	background-color:white;
+	border:1px solid white;
+	text-align:justify;
+	border-radius: 13px;
+	padding:2%;
+	font-size:1.1em;
+	float:left;
+	margin-left:4%;
+}
+.logos, .logos:hover{
+	width:45%;
+	margin-left:26%;
+	margin-top:10%;
+	background-color:white;
+
+}
+.socialmedia, .socialmedia:hover{
+
+	float:left;
+	border:1px solid white;
+	background-color: white;
+	width:15%;
+    margin-left:3%;
+	
+
+	border-radius:13px;
+
+	
+}
+.h3_socialmedia{
+	text-align:center;
+}
+.hr_socialmedia{
+	margin-left:3%;
+	margin-right:3%;
+}
+.footer{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+					background-color:#ebebeb ;
+					display: flex ;
+					justify-content: center;
+				}
+				li {
+					float: left;
+				}
+				li a {
+					display: block;
+					color: #595959;
+					text-align: center;
+					padding: 10px 20px;
+					border:1px solid #b3b3b3;
+					border-radius:13px;
+					text-decoration: none;
+				}
+				a:hover, a:active {
+								  background-color: #b3b3b3;
+								  color: black;
+				}
+				li a:active {
+ 							 background-color: #1550a3;
+ 							 color:white;
+				} 
+
+				.sidebar {
+						float: right;
+						width: 30%;
+						height: auto;
+						border: 1px solid white;
+						margin-left: auto;
+						margin-right: auto;
+						}
+
+						.sidebar-bottom {display: none;}
+
+						@media screen and (max-width: 480px) {
+						.sidebar {display: none;}
+						.sidebar-bottom {
+						display: block;
+						position: relative;
+						width: 90%;
+						height: auto;
+						margin-left: auto;
+						margin-right: auto;
+						margin-bottom: 20px;
+						border: 1px solid white;
+						background: white;
+						}
+						}
